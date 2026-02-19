@@ -1,6 +1,5 @@
 [sannt.html](https://github.com/user-attachments/files/25406274/sannt.html)
-
-[Uploa<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -68,5 +67,6 @@
        
     </script>
 </body>
-</html>ding sannt.html…]()
+</html>
+
 
