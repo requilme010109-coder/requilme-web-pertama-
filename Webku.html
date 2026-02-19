@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top up requilme</title>
+    <link rel="stylesheet" href="webstyle.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h3 class="name">Requilme</h3>
+        <h4>Top Up</h4>
+        <ul class="ul-nav">
+        <li class="li-nav"><a href="#Home">Home</a></li>
+         <li class="li-nav"><a href="#product">Products</a></li>
+          <li class="li-nav"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- Content -->
+     <main>
+     <section id="Home">
+        <div class="content">
+            <h2>Requilme Top Up</h2>
+            <p >Murah | Aman | Terpercaya</p>
+        </div>
+     </section>
+
+     <section id="product">
+        <div class="produk">
+            
+            <h3>Top Up Game dengan Cepat dan Aman </h3>
+            <p>Pilih game favoritmu dan lakukan top up instan. Diskon hingga 20% untuk member!</p>
+        </div>
+     </section>
+
+    <section class="products" >
+        <div class="product">
+            <img src="OIP (1).jpg" alt="sann items">
+            <h3>Mobile Legends</h3>
+            <p>Mulai Top Up diamonds dari Rp 10.000</p>
+            <button onclick="alert(`Belum tersedia`)"> Pilih</button>
+        </div>
+        <div class="product">
+            <img src="OIP (2).jpg" alt="sann items">
+            <h3>PUBG Mobile</h3>
+            <p>Mulai Top Up diamonds dari Rp 15.000</p>
+            <button onclick="alert(`Belum tersedia`)">Pilih</button>
+        </div>
+        <div class="product">
+            <img src="OIP (3).jpg" alt="sann items">
+            <h3>Free Fire</h3>
+            <p>Mulai Top Up diamonds dari Rp 5.000</p>
+            <button onclick="alert(`Belum tersedia`)">Pilih</button>
+        </div>
+        <div class="product">
+            <img src="download.jpg" alt="sann items">
+            <h3>ROBLOX</h3>
+            <p>Mulai Top Up diamonds dari Rp 300.000</p>
+            <button onclick="alert(`Belum tersedia`)">Pilih</button>
+        </div>
+        <div class="product">
+            <img src="OIP (4).jpg" alt="sann items">
+            <h3>HOK</h3>
+            <P>Mulai Top Up diamonds dari Rp 50.000</P>
+            <button onclick="alert(`Belum tersedia`)">Pilih</button>
+        </div>
+        <div class="product">
+            <img src="OIP (5).jpg" alt="sann items">
+            <h3>eFootball</h3>
+            <p>Mulai Top Up diamonds dari Rp 500.000</p>
+            <div class="dropdown">
+            <button id="dropdown">Pilih</button>
+            <div id="dropdownMenu" class="dropdownMenu">
+                <div onclick="pilih('120 diamonds')">120 diamonds</div>
+            </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Content end -->
+
+    <!-- Footer -->
+    <section class="topup-form">
+        <h3>Form Top Up</h3>
+        <form action="#" method="get">
+            <div class="form-group">
+                <label for="game">Pilih Game</label>
+                <select name="game" id="game">
+                    <option value="ml">Mobile Legend</option>
+                    <option value="ff">Free Fire</option>
+                    <option value="pubg">Pubg Mobile</option>
+                    <option value="roblox">ROBLOX</option>
+                    <option value="hok">HOK</option>
+                    <option value="fotball">eFootball</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amount">Jumlah Top Up:</label>
+                <input type="number" id="amount" name="amount" placeholder="Masukkan Jumlah" min="1">
+            </div>
+            <div class="form-group">
+                <label for="payment">Metode Pembayaran:</label>
+                <select name="payment" id="payment">
+                    <option value="ovo">OVO</option>
+                    <option value="gopay">Gopay</option>
+                    <option value="dana">DANA</option>
+                    <option value="bank">Transfer Bank</option>
+                </select>
+            </div>
+            <button onclick="alert(`Fitur Top Up belum tersedia`)" type="submit">Top Up Sekarang</button>
+        </form>
+    </section>
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2026 RequilmeTopUp. Semua hak dilindungi. Hubungi kami di support@requilmetopup.com</p>
+    </footer>
+    <!-- Footer end -->
+     <script src="web.js"></script>
+</body>
+</html>

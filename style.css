@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+margin: 0;
+font-family:Grid, sans-serif;
+background-image: url(WhatsApp\ Image\ 2026-01-18\ at\ 22.18.21.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+  /* NAVBAR */
+
+.nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color:  rgba(0, 0, 0, 0.8);;
+    padding-top: 20px;
+}
+
+.profil {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid none;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 5px solid none;
+    background-color: #555;
+    margin-left:-50px;
+    font-size: 15px;
+    width: 210px;
+    height: 30px;
+    color: white;
+}
+
+
+.nav-li {
+    border-radius: 40%;
+    object-fit: cover;
+    border: 3px solid dodgerblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: border-radius 0.3s ease;
+    overflow: hidden;
+}
+
+
+.git-sosial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 3px solid DodgerBlue;
+    transition: transform 0.3s ease;
+}
+
+.github:hover {
+    transform: scale(1.5);
+}
+
+.nav-li a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.nav-li a:hover {
+    transform: scale(1.1);
+    background-color: dodgerblue;
+}
+
+/* content */
+
+#Home {
+    padding-top: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s;
+}
+
+.home-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 380px;
+}
+
+.btn {
+    background-color: #ffee33;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    border: 3px solid none;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px; 
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.project1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.img-project {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px ;
+    height: 80px;
+}
+
+.project-grid {
+     display: inline-block;
+     grid-template-columns: repeat(auto-fit, minMax(300px, 1fr));   
+}
+
+.project-card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border: solid 3px none;
+    background-color: dodgerblue;
+    margin: 20px;  
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.ri-html5-fill {
+    font-size: 50px;
+}
+
+.ri-css3-fill {
+    font-size: 50px;
+}
+
+.ri-javascript-fill {
+    font-size: 50px;
+}
+
+.ri-ai{
+    font-size: 50px;
+}
+
+/* FOOTER */
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid none;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 250px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px;  
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444;
+    margin-top: 20px;
+    width: 100%;
+}

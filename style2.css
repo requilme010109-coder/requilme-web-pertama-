@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap');
+
+body {
+margin: 0;
+font-family:Grid, sans-serif;
+background: linear-gradient(135deg, #022ce5 0%, rgb(191, 191, 221) 100%);
+color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+  /* NAVBAR */
+
+.nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color:  rgba(0, 0, 0, 0.8);;
+    padding-top: 20px;
+}
+
+.profil {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid none;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 5px solid none;
+    background-color: #555;
+    margin-left:-50px;
+    font-size: 15px;
+    width: 210px;
+    height: 30px;
+    color: white;
+}
+
+
+.nav-li {
+    border-radius: 40%;
+    object-fit: cover;
+    border: 3px solid dodgerblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    transition: border-radius 0.3s ease;
+    overflow: hidden;
+}
+
+
+.git-sosial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 3px solid DodgerBlue;
+    transition: transform 0.3s ease;
+}
+
+.github:hover {
+    transform: scale(1.5);
+}
+
+.nav-li a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.nav-li a:hover {
+    transform: scale(1.1);
+    background-color: dodgerblue;
+}
+
+/* content */
+
+#About {
+    padding-top: 200px;
+    height: 100%;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 2s;
+}
+
+.home-content p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.p-about {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #444;
+    margin-top: 50px;
+    width: 100%;
+    
+}
